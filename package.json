@@ -7,12 +7,13 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-	"types": "./dist/index.js",
-	"import": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "scripts": {
-    "test": "vitest"
+    "test": "vitest run",
+    "bin": "tsx"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
   },
   "homepage": "https://github.com/MathLun/stockflow-core#readme",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
   }
 }
