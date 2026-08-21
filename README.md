@@ -229,6 +229,7 @@ The structure will evolve as additional Core Boot capabilities are introduced.
 - [BootContext](./docs/boot/boot-context.md) — foundational Core Boot context contract.
 - [PreProcessor](./docs/boot/pre-processor.md) — asynchronous boot context preparation contract.
 Additional architectural documentation will be added as new contracts are established.
+- [Bootstrap](./docs/boot/bootstrap.md) — asynchronous application initialization contract.
 
 ## Testing Strategy
 
