@@ -1,0 +1,36 @@
+{
+  "name": "@stockflow/core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic core runtime and boot infrastructure for StockFlow applications.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+	"types": "./dist/index.js",
+	"import": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathLun/stockflow-core.git"
+  },
+  "keywords": [
+    "stockflow",
+    "stockflow-core",
+    "erp",
+    "core-runtime"
+  ],
+  "author": "Matheus Luna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MathLun/stockflow-core/issues"
+  },
+  "homepage": "https://github.com/MathLun/stockflow-core#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
